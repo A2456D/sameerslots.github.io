@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sameer Slots - Account</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Sameer Slots - Account</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="instructions.html">Instructions</a>
+    <a href="about.html">About</a>
+    <a href="account.html">Account</a>
+  </nav>
+
+  <main>
+    <div id="account-form">
+      <h2>Login / Sign-up</h2>
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Enter username">
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password">
+      <button onclick="loginOrSignup()">Login/Sign-up</button>
+      <div id="login-error" class="hidden">Invalid username or password</div>
+    </div>
+
+    <div id="account-details" class="hidden">
+      <h2>Account Details</h2>
+      <p>Username: <span id="username-display"></span></p>
+      <p>Total Wins: <span id="total-wins"></span></p>
+      <p>Amount Won: $<span id="amount-won"></span></p>
+      <button onclick="logout()">Logout</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Sameer Slots</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

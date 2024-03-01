@@ -1,0 +1,225 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #108dc7 0%, #ef8e38 100%);
+  color: #000000;
+}
+
+header, nav, main, footer {
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #333;
+}
+
+/* Import Google Fonts */
+@import url("//fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Header */
+header{
+ background-color:#000000;
+ color:#417dcc;
+ font-family:'Arial Black','Arial Bold',Gadget,sans-serif;
+}
+
+/* Main */
+main{
+ border-style:solid;
+ border-width:0px;
+}
+
+/* Navigation */
+nav{
+ font-weight:700;
+ font-family:'Archivo Narrow', sans-serif;
+ letter-spacing:0.6px;
+ word-spacing:-3.8px;
+ font-size:8px;
+ line-height:16.2px;
+ color:#ffffff;
+ box-shadow:none;
+}
+
+/* Heading */
+header h1{
+ color:#27ae60;
+}
+
+/* Slot */
+main .slot{
+ background-image:url("https://images.unsplash.com/photo-1707655096635-89387f83f189?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNTc5fDB8MXxhbGx8Mnx8fHx8fDJ8fDE3MDg0NzQxMzN8&ixlib=rb-4.0.3&q=80&w=200");
+ column-count:1;
+ word-spacing:-3.4px;
+ text-align:center;
+ line-height:86.1px;
+ font-size:60px;
+}
+
+/* Button */
+main button{
+ position:relative;
+ top:-12px;
+ width:98px;
+ height:64px;
+ font-family:'Arial Black','Arial Bold',Gadget,sans-serif;
+ background-color:#0065cc;
+ background-image:url("https://images.unsplash.com/photo-1708281789753-a414433ea272?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNTc5fDB8MXxhbGx8MzB8fHx8fHwyfHwxNzA4NDc0MTM2fA&ixlib=rb-4.0.3&q=80&w=200");
+ color:#ffffff;
+}
+
+/* Body */
+body{
+ background-image:url("https://images.unsplash.com/photo-1682695798256-28a674122872?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNTc5fDF8MXxhbGx8MTZ8fHx8fHwyfHwxNzA4NDc0MTM2fA&ixlib=rb-4.0.3&q=80&w=2560");
+}
+
+
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+.slot {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  font-size: 2em;
+  display: inline-block;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: green;
+}
+
+
+/* Same as before */
+
+/* Header */
+header {
+  background-color: #000000;
+  color: #417dcc;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+}
+
+/* Main */
+main {
+  border-style: solid;
+  border-width: 0px;
+}
+
+/* Import Google Fonts */
+@import url("//fonts.googleapis.com/css2?family=ABeeZee:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("//fonts.googleapis.com/css2?family=Angkor:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("//fonts.googleapis.com/css2?family=Aclonica:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+
+/* Label */
+#account-form label{
+ font-family:Impact,Haettenschweiler,'Franklin Gothic Bold',Charcoal,'Helvetica Inserat','Bitstream Vera Sans Bold','Arial Black','sans serif';
+ color:#2ecc71;
+ font-size:18px;
+ letter-spacing:1px;
+}
+
+/* Password */
+#password{
+ font-family:'ABeeZee', sans-serif;
+ font-style:normal;
+ background-color:#9af3a0;
+}
+
+/* Username */
+#username{
+ background-color:#9af3a0;
+}
+
+/* Button */
+#account-form button{
+ transform:translatex(0px) translatey(0px);
+ font-weight:300;
+ font-size:11px;
+ background-image:none;
+ background-color:#2c3e50;
+ left:0px;
+ text-align:center;
+}
+
+/* Login error */
+#login-error{
+ font-family:Impact,Haettenschweiler,'Franklin Gothic Bold',Charcoal,'Helvetica Inserat','Bitstream Vera Sans Bold','Arial Black','sans serif';
+ color:#f1c40f;
+}
+
+/* Heading */
+#account-details h2{
+ font-family:'Arial Black','Arial Bold',Gadget,sans-serif;
+ color:#bdc3c7;
+}
+
+/* Paragraph */
+#account-details p{
+ color:#f1c40f;
+ font-family:Impact,Haettenschweiler,'Franklin Gothic Bold',Charcoal,'Helvetica Inserat','Bitstream Vera Sans Bold','Arial Black','sans serif';
+}
+
+/* Heading */
+#account-form h2{
+ color:#f1c40f;
+ font-family:'Angkor', display;
+ letter-spacing:1px;
+}
+
+/* Button */
+#account-details button{
+ background-image:none;
+ background-color:#2c3e50;
+}
+
+/* Heading */
+header h1{
+ font-family:'Aclonica', sans-serif;
+}
+
+/* Body */
+body{
+ background-image:none;
+ background-color:#da4747;
+}
+
+/* Paragraph */
+main p{
+ font-family:Impact,Haettenschweiler,'Franklin Gothic Bold',Charcoal,'Helvetica Inserat','Bitstream Vera Sans Bold','Arial Black','sans serif';
+ color:#1abc9c;
+ word-spacing:0.9px;
+ letter-spacing:0.8px;
+ font-size:24px;
+}
+
